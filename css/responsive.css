@@ -1,0 +1,248 @@
+/* MAX-WIDTH 992PX */
+@media (max-width: 992px) {
+  /* CUSTOM CSS */
+  h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .nav-btn {
+    display: none !important;
+  }
+
+  .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .navbar .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar .navbar-toggler i {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: var(--secondary);
+    border: 0.15rem solid var(--secondary);
+    transition: var(--transition);
+  }
+
+  .navbar .navbar-toggler:focus i {
+    color: var(--primary);
+    border-color: var(--primary);
+  }
+
+  .navbar .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: none !important;
+  }
+
+  .navbar-collapse {
+    padding: 2rem 0 2rem 2rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--white);
+  }
+
+  /* HERO SECTION */
+  .hero_section {
+    padding-top: 15rem !important;
+  }
+
+  /* FILTER  SECTION */
+  .filter_btn {
+    width: 50%;
+  }
+
+  /* QUESTION SECTION */
+  .question,
+  .question_two {
+    padding: 4rem 2.5rem;
+  }
+
+  .question_content {
+    max-width: 100%;
+  }
+
+  .question-img img {
+    position: static;
+  }
+}
+/* MAX-WIDTH 772PX */
+@media (max-width: 772px) {
+  /* CUSTOM CSS */
+  h1 {
+    font-size: 2.8rem !important;
+  }
+  h2 {
+    font-size: 2.5rem !important;
+  }
+  h3 {
+    font-size: 2rem !important;
+  }
+  h4 {
+    font-size: 2rem !important;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .padding-block {
+    padding-block: 4.5rem;
+  }
+
+  .margin-block {
+    margin-block: 4.5rem;
+  }
+
+  /* HERO SECTION */
+  .hero_section {
+    padding-top: 10rem;
+  }
+
+  .hero_content .content {
+    font-size: 1.4rem !important;
+  }
+
+  .hero_img img {
+    max-width: 300px !important;
+    height: auto;
+  }
+
+  /* REFUND SECTION */
+  .refund_section {
+    padding: 5rem 0 0 0;
+  }
+
+  /* FILTER  SECTION */
+  .filter_btn {
+    width: 85%;
+  }
+
+  /* FAQ PAGE */
+  .faq_header {
+    padding-bottom: 1em !important;
+  }
+
+  .faq_img img {
+    width: 100%;
+  }
+
+  /* DEVICE SECTION */
+  .device_filter_btn {
+    max-width: 70%;
+  }
+
+  .installation_filter_btn {
+    max-width: 90%;
+  }
+
+  .installation_filter_btn button {
+    font-size: 1.2rem;
+  }
+
+  .shape_img_one img,
+  .shape_img_two img {
+    display: none;
+  }
+
+  .esim_img img {
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-inline: auto;
+  }
+}
+
+/* MAX-WIDTH 568PX */
+@media (max-width: 568px) {
+  /* CUSTOM CSS */
+
+  h2 {
+    font-size: 2.2rem !important;
+  }
+
+  h3 {
+    font-size: 1.8rem !important  ;
+  }
+
+  h4 {
+    font-size: 1.8rem !important;
+  }
+  h5 {
+    font-size: 1.6rem !important;
+  }
+
+  /* NAVBAR SECTION */
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .navbar-collapse {
+    padding: 1rem;
+  }
+
+  .navbar-brand h3 {
+    font-size: 3rem !important;
+  }
+
+  /* DESTINATION SECTION */
+  .btn-primary {
+    width: 50% !important;
+  }
+  /* REVIEW SECTION */
+
+  .review_header {
+    padding-bottom: 1rem !important;
+  }
+
+  .swiper {
+    padding-bottom: 1.5rem !important;
+  }
+
+  /* good bye section */
+  .good-bye-body {
+    background-color: #edf9fe;
+    background-image: none;
+    padding-block: 2.5rem !important;
+  }
+
+  /* CONTACT PAGE */
+  .contact_hero {
+    padding: 5rem 0 10rem 0;
+  }
+
+  .form-check-input {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+  }
+
+  .form-check-label {
+    font-size: 1.2rem !important;
+  }
+
+  .inner_card {
+    padding: 2.5rem;
+  }
+
+  .shape_img {
+    display: none;
+  }
+
+  /* MISSION SECTION */
+  .mission_content {
+    padding: 2rem;
+  }
+
+  /* DEVICE SECTION */
+  .device_filter_btn {
+    max-width: 80%;
+  }
+}
+/* MAX-WIDTH 420px */
+@media (max-width: 420px) {
+}

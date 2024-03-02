@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="animation">
+     <div class="anm_mod full">
+      anm_mod full
+     </div>
+    </div>
+   
+    <div class="animation">
+     <div class="anm_mod left fast">
+      anm_mod left fast
+     </div>
+     <div class="anm_mod right delay">
+      anm_mod right delay
+     </div>
+    </div>
+   
+    <div class="animation">
+     <div class="anm_mod full fast">
+      anm_mod full fast
+     </div>
+    </div>
+   
+    <div class="animation">
+     <div class="anm_mod left delay">
+      anm_mod left delay
+     </div>
+     <div class="anm_mod right fast">
+      anm_mod right fast
+     </div>
+    </div>
+   
+    <div class="animation">
+     <div class="anm_mod full delay">
+      anm_mod full delay
+     </div>
+    </div>
+    <style>
+body {
+	 background: #121927;
+}
+ 
+    </style>
+    
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+$(window).scroll(function() {
+ $(".animation .anm_mod").each(function() {
+  const position = $(this).offset().top;
+  const scroll = $(window).scrollTop();
+  const windowHeight = $(window).height();
+  if (scroll > position - windowHeight) {
+   $(this).addClass("active");
+  }
+  if (scroll < 100) {
+   $(this).removeClass("active");
+  }
+ });
+});
+
+// $(function() {
+//  $('a[href^="#"]').click(function() {
+//   const speed = 800;
+//   const href = $(this).attr("href");
+//   const target = $(href == "#" || href == "" ? "html" : href);
+//   const position = target.offset().top;
+//   $("html, body").animate({ scrollTop: position }, speed, "swing");
+//   return false;
+//  });
+// });
+
+    </script>
+</body>
+</html>
+
